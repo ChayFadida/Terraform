@@ -1,0 +1,21 @@
+# Ignore Terraform binary and directory
+.terraform/
+
+# Ignore any terraform lock files
+*.tfstate
+*.tfstate.backup
+*.tfstate.backup.*
+*.tfstate.lock.info
+
+# Ignore any .tfvars files that might contain sensitive information
+*.tfvars
+
+# Ignore logs and other build files
+*.log
+*.out
+
+# Ignore any local files
+*.local
+
+variables.tf
+.terraform.lock.hcl
