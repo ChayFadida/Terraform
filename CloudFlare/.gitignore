@@ -17,5 +17,4 @@
 # Ignore any local files
 *.local
 
-variables.tf
 .terraform.lock.hcl
